@@ -1,0 +1,481 @@
+body {
+
+    width: 100%;
+    height: 100%;
+    background-color: #EEF1FF;
+
+
+}
+
+@media (max-width: 718px) {
+
+    ::selection {
+        color: rgb(0, 0, 0);
+        background: rgba(170, 170, 170, 0.426);
+        border-left: 1px solid 000000;
+    }
+
+    header {
+
+        height: 7vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .container{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 25px;
+
+
+    }
+
+    .skillbar {
+
+        width: 40vw;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+
+    }
+
+    .desc {
+
+        width: 40vw;
+        color: white;
+
+    }
+
+    main {
+
+        max-height: 100%;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        object-fit: cover
+    }
+
+
+    .intro {
+
+        max-height: 90vh;
+        max-width: 100vw;
+        display: flex;
+        justify-content: space-center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 100%;
+        max-height: 100%;
+        padding: 7%;
+
+
+    }
+
+    .gen_info {
+
+        width: 70vw;
+        border: 1px solid#edf1ff;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: start;
+        flex-wrap: wrap;
+
+    }
+
+    .img_info {
+
+        width: 20vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        ;
+
+    }
+
+    .phrase_info {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 5px;
+        padding: 10px;
+
+    }
+
+    .img_info img {
+
+        width: auto;
+        max-height: auto;
+        border-radius: 50%;
+        box-shadow: 25px 25px #162DF5;
+
+    }
+
+
+    .gen_info h1,
+    .gen_info p {
+
+        margin: 20px;
+
+    }
+
+    .gen_info nav {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin-left: 20px;
+
+    }
+
+    .content {
+
+        width: 90vw;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+
+    .content_end {
+
+        width: 80vw;
+        justify-content: center;
+        align-content: center;
+        height: 100%;
+
+
+    }
+
+    .about {
+
+        background-color: #162DF5;
+        height: 1500px;
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .experience {
+
+        height: 950px;
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .project {
+
+        background-color: #162DF5;
+        height: 2200px;
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .contact {
+
+        height: 800px;
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .thank{
+
+        height: 100px;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background-color: #162DF5;
+
+
+    }
+
+    .wave {
+
+        width: 100vw;
+
+    }
+
+    .logotype {
+
+        display: block;
+        max-width: 70%;
+        max-height: 70%;
+        width: auto;
+        height: auto;
+
+    }
+
+}
+
+@media (min-width: 719px) {
+
+
+
+    ::selection {
+        color: rgb(0, 0, 0);
+        background: rgba(170, 170, 170, 0.426);
+        border-left: 1px solid 000000;
+    }
+
+    header {
+
+        height: 7vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .container{
+
+        display: flex;
+        justify-content: space-around;
+        align-items: start;
+        flex-direction: row;
+        margin: 25px;
+
+    }
+
+    .skillbar {
+
+        width: 40vw;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+
+    }
+
+    .desc {
+
+        width: 40vw;
+        color: white;
+
+    }
+
+    main {
+
+        max-height: 100%;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        object-fit: cover
+    }
+
+    .intro {
+
+        max-height: 90vh;
+        max-width: 100vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 100%;
+        max-height: 100%;
+        padding: 7%;
+
+
+    }
+
+    .gen_info {
+
+        width: 50vw;
+        border: 1px solid#edf1ff;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: start;
+        flex-wrap: wrap;
+
+    }
+
+    .img_info {
+
+        width: 30vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        ;
+
+    }
+
+    .phrase_info {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin: 20px;
+        padding: 30px;
+
+    }
+
+    .img_info img {
+
+        width: auto;
+        max-height: auto;
+        border-radius: 50%;
+        box-shadow: 25px 25px #162DF5;
+
+    }
+
+
+    .gen_info h1,
+    .gen_info p {
+
+        margin: 20px;
+
+    }
+
+    .gen_info nav {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin-left: 20px;
+
+    }
+    .content {
+
+        width: 90vw;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .content_end {
+
+        width: 80vw;
+        height: 100%;
+        justify-content: center;
+        align-content: center;
+
+    }
+
+
+    .about {
+
+        background-color: #162DF5;
+        min-height: 800px;
+        max-height: 120%;
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .experience {
+
+        max-height: 100%;
+        min-height: 800px;
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .project {
+
+        background-color: #162DF5;
+        min-height: 1400px;
+        max-height: 100%;
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .contact {
+
+        min-height: 800px;
+        max-height: 100%;
+        width: 100vw;
+        display: flex;
+        justify-content: c;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .thank{
+
+        max-height: 120%;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background-color: #162DF5;
+
+
+
+    }
+
+    .wave {
+
+        width: 100vw;
+
+    }
+
+    .logotype {
+
+        display: block;
+        max-width: 70%;
+        max-height: 70%;
+        width: auto;
+        height: auto;
+
+    }
+
+}

@@ -1,0 +1,41 @@
+.skill_item{
+
+display: flex;
+width: 140px;
+height: 140px;
+justify-content: center;
+align-items: center;
+background-color: white;
+padding: 10px;
+margin: 5px;
+flex: 1 1 33.3%;
+
+}
+
+.skill_item:hover{
+
+    display: flex;
+    width: 140px;
+    height: 140px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(159, 159, 159);
+    padding: 10px;
+    margin: 5px;
+    flex: 1 1 33.3%;
+    
+    }
+    
+
+.skill_item img{
+
+    display: block;
+    width: 20%;
+    
+    }
+
+    .skillbar img{
+
+border-radius: 5%;
+
+    }

@@ -1,0 +1,25 @@
+body {
+
+    cursor: url("../asset/cursor_common.png"), auto;
+
+}
+
+a:hover {
+
+    cursor: url("../asset/cursor_common.png"), auto;
+
+}
+
+button:hover {
+
+    cursor: url("../asset/cursor_common.png"), auto;
+
+}
+
+.big {
+
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+
+}

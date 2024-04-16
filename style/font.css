@@ -1,0 +1,151 @@
+@media (min-width: 719px) {
+
+    h1 {
+
+        font-family: "Source Code Pro", monospace;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 2vw;
+
+    }
+
+    p {
+
+        font-family: "Cabin", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 0.9vw;
+        margin: 20px;
+
+    }
+
+    h2 {
+
+        font-family: "Source Code Pro", monospace;
+        font-optical-sizing: auto;
+        font-style: normal;
+        color: white;
+        padding: 30px;
+        background-color: black;
+        font-size: 1.8vw;
+        margin: 40px;
+
+    }
+
+    li {
+
+        font-family: "Cabin", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        color: rgb(0, 0, 0);
+        font-size: 0.9vw;
+
+    }
+
+    h3 {
+
+        font-family: "Cabin", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 1vw;
+        margin: 20px;
+
+    }
+
+    span {
+
+        font-family: "Cabin", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 0.7vw;
+
+
+    }
+
+    div{
+
+        font-family: "Cabin", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 0.7vw;
+
+
+    }
+    
+
+}
+
+@media (max-width: 718px) {
+
+    h1 {
+
+        font-family: "Source Code Pro", monospace;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 5vw;
+
+    }
+
+    p {
+
+        font-family: "Cabin", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 2.8vw;
+
+    }
+
+    li {
+
+        font-family: "Cabin", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        color: rgb(0, 0, 0);
+        font-size: 2.5vw;
+
+    }
+
+    h3 {
+
+        font-family: "Cabin", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 3vw;
+        margin: 20px;
+
+    }
+
+    h2 {
+
+        font-family: "Source Code Pro", monospace;
+        font-optical-sizing: auto;
+        font-style: normal;
+        color: white;
+        padding: 30px;
+        background-color: black;
+        font-size: 4vw;
+        margin: 40px;
+
+    }
+
+
+    span {
+
+        font-family: "Cabin", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 1.7vw;
+
+
+    }
+
+    div{
+
+        font-family: "Cabin", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 2vw;
+
+    }
+
+}
