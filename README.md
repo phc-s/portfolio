@@ -1,4 +1,6 @@
-![portfoliodemo](https://github.com/user-attachments/assets/94f15bcc-c927-4990-9e25-433eaeffa1e3)
+![devices](https://github.com/user-attachments/assets/c67ddb82-7f09-4eba-a41f-b72dba80eed3)
+
+> The image above could be potentially used an outdated prototype screenshot, when the final version arrives, I will change to a correct image, only for illustration reasons. 
 
 PHC-S Portfolio is a front-end application that showcases my projects, experience, and story as a developer. It can get updated throughout the time. It is planned that the current online version will be replaced by a newer version in the near future.
 
@@ -13,6 +15,7 @@ It will have these sections:
 + Experience - I will insert about my academic experience (professional is going to come).
 + Practical Projects - My real projects made online in World Wide Web domains.
 + Personal Projects - My personal projects that are stored on GitHub (not all of them are public).
++ Footer - End with a message of contact, links to social media and credits.
 
 ## Prototype 🖵:
 
