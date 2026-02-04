@@ -29,7 +29,9 @@
 
 <body id="home">
     <header>
-        <img src="asset/phcs_logo.png" class="logotype" title="phc-s" alt="logotipo">
+        <div class="navigator">
+            <img src="asset/phcs_logo.svg" class="logotype" title="phc-s" alt="logotipo">
+        </div>
     </header>
     <main>
         <div class="intro">
@@ -42,7 +44,7 @@
                             src="asset/social/Invertocat.png" alt="ícone do Github" width="40px" height="40px" class="select_1"></a>
                     <a href="https://www.linkedin.com/in/phc-s" target="_blank" rel="noopener noreferrer"><img class="item"
                             src="asset/social/Linkedin.png" alt="ícone do Linkedin" width="40px" height="40px"></a>
-                    <button class="tooltip" class="item" onclick="copy()"><img src="asset/social/mail.png" alt="ícone de email" width="40px"
+                    <button class="tooltip" onclick="copy()"><img src="asset/social/mail.png" alt="ícone de email" width="40px"
                             height="40px"> <span class="tooltiptext" id="text">Copie meu endereço de email!</span>
                     </button>
                 </nav>
@@ -166,6 +168,8 @@
                 </div>
             </div>
         </div>
+    </main>
+    <footer>
         <div class="contact" id="contact">
             <div class="content">
                 <h2> contate-me </h2>
@@ -178,19 +182,9 @@
             </div>
         </div>
         <div class="thank">
-            <p> Feito com ❤️ em Recife, Pernambuco, Brasil, 2025</p>
+            <p> Feito com ❤️ em Recife, Pernambuco, Brasil, 2026</p>
         </div>
-    </main>
-    <footer>
-
     </footer>
-    <div class="navigator">
-        <img src="asset/navigator/home.png" onclick="scrollToSection('home')" title="Apresentação">
-        <img src="asset/navigator/information.png" onclick="scrollToSection('about')" title="Sobre">
-        <img src="asset/navigator/star.png" onclick="scrollToSection('exp')" title="Experiência">
-        <img src="asset/navigator/lightbulb.png" onclick="scrollToSection('project')" title="Projetos">
-        <img src="asset/navigator/contact.png" onclick="scrollToSection('contact')">
-    </div>
     <script>
         function copy() {
 
